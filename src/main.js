@@ -15,7 +15,8 @@ const PORT = 80; // or any port you want to use
 const admins = [
   7456088763,
   7576104609,
-  8193001945
+  8193001945,
+  7345381269
 ];
 
 // Loading the Safeguard picture beforehand for speed
